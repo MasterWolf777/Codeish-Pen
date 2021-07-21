@@ -1,0 +1,108 @@
+.Logo{
+    width: 200px;
+    height: 100%;
+  }
+  
+  .text-wrapper{
+    font-size: 2em;
+    height: 436px;
+    width:50%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .text-wrapper > .top-text{
+    color:white;
+    font-size: 40px;
+  }
+  
+  .text-wrapper > .bottom-text{
+    color: grey;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  
+  .highlited-text{
+    font-weight: 900;
+  }
+
+.main{
+  display: flex;
+}
+
+.main > .right  img{
+height: 60%;
+width: 70%;
+margin-top: 10px;
+}
+
+.right{
+  width: 50%;
+}
+
+.right-text-wrapper{
+  width: 50%;
+}
+
+.blue-text{
+  color:cyan;
+}
+
+.white-text{
+  color: white;
+}
+
+.right-wrapper{
+  text-align: right;
+  margin-top: 2em;
+}
+
+.bottom-buttons {
+  border: transparent;
+border-radius: 10px;
+display: flex;
+padding-left: 50px;
+width:100%;
+/* margin-top: 200px; */
+}
+
+.green-btn{
+  border: rgb(75, 206, 121);
+  border-radius: 10px;
+  background-color: rgb(75, 206, 121);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.black-btn{
+  border:black;
+  border-radius: 10px;
+  background-color: black;
+  color:white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ground-text{
+  display:flex;
+  color:rgba(255, 255, 255, 0.973);
+  background-color: rgb(46, 44, 44);
+  justify-content: space-around;
+  font-size: 20px;
+  margin-bottom: 100px;
+ }
+
+ .ground-text div{
+  border: grey 2px solid;
+  border-collapse: collapse;
+border-radius: 10px;
+
+  width: 25%;
+  text-align: center;
+  padding: 15px;
+ }
+
+.bold{
+  font-weight: 900;
+}
